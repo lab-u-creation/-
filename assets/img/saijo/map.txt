@@ -1,0 +1,5 @@
+	.st0,.st1,.st2{cursor:pointer;}
+	.st0:hover{fill:#c1d9b4;}
+	.st1:hover{fill:#92ccd5;}
+	.st2:hover{fill:#92ccd5;}
+	.st4,.st5{pointer-events: none;}

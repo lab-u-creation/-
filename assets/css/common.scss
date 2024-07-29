@@ -1,0 +1,14 @@
+$color-gray:#999;
+$color-dlgray:#666;
+$color-dgray:#444;
+$color-contrast:#fdf49c; //f3df8d//#f9dd82
+$color-contrast-dark:#f7e762;
+@import "base";
+@import "layout"; //レイアウト
+@import "typography"; //文字の設定（※色は除く）
+@import "sizing"; //width、heightの設定
+@import "spacing"; //margin、paddingの設定
+@import "colors"; //色の設定（文字色・背景色）
+@import "utility"; //その他（汎用で使いまわすもの）
+@import "component"; //その他（用途が限定されるもの）
+@import "animation"; //アニメーション関係

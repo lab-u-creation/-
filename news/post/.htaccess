@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /news/post
+RewriteRule ^index\.php$ - [L]
+RewriteRule . /news/post/index.php [L]
+</IfModule>

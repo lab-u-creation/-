@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /voice/post
+RewriteRule ^index\.php$ - [L]
+RewriteRule . /voice/post/index.php [L]
+</IfModule>

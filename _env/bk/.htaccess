@@ -1,0 +1,22 @@
+AddType image/xicon .ico
+<Files favicon.ico>
+ErrorDocument 404 /favicon.ico
+</Files>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
+
+DirectoryIndex top/index.php index.php
+ErrorDocument 404 /error/404.php
+
+AuthUserFile /home/r2228185/public_html/tomin-osohshiki.jp/.htpasswd
+AuthGroupFile /dev/null
+AuthName "IDとパスワードを記入してください"
+AuthType Basic
+require valid-user
+<Files ~ "^.(htpasswd|htaccess)$">
+deny from all
+</Files>

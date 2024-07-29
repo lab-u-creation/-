@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@media print {
+    body {
+        font-family: "ヒラギノ角ゴ Pro W3", "ヒラギノ角ゴ Pro W6", Arial, sans-serif;
+    }
+}
+
+@page {
+    size: landscape;
+    margin: 0;
+}
+
+.font-size-small {
+    /*h2~h3*/
+    font-size: 0.7rem;
+}
+
+.font-size-1_6 {
+    /*h2~h3*/
+    font-size: 1.6rem;
+}
+
+.size-a3-beside {
+    width: 420mm;
+    height: 290mm;
+    page-break-inside: avoid;
+}
+
+.h-297 {
+    height: 290mm;
+}
+
+.p-10mm {
+    padding: 10mm;
+}
+
+.p-20mm {
+    padding: 20mm;
+}
